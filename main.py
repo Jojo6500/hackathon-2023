@@ -50,7 +50,9 @@ class DatabaseView(QMainWindow):
 class  StartingMenu(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        
+        mainwidget = QWidget()
+        mainlayout = QVBoxLayout()
+        mainwidget.setLayout(mainlayout)
 
 
 
